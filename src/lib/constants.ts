@@ -100,15 +100,15 @@ export const howItWorksSteps = [
 
 export const testimonials = [
   {
-    name: 'Sarah L.',
-    title: 'Freelance Designer',
+    name: 'Sourabh',
+    title: 'Freelancer',
     quote: "Working with Humanly Persona was a game-changer. My online presence feels authentic and I've seen a 200% increase in client inquiries!",
     image: 'https://placehold.co/100x100.png',
-    dataAiHint: 'woman portrait',
+    dataAiHint: 'man portrait',
   },
   {
-    name: 'David C.',
-    title: 'Tech Professional',
+    name: 'Aalok',
+    title: 'Techie',
     quote: "I struggled with how to present myself online. They provided a clear strategy that helped me land a speaking gig at a major conference.",
     image: 'https://placehold.co/100x100.png',
     dataAiHint: 'man portrait',

@@ -59,7 +59,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><a href="mailto:hello@humanlypersona.com" className="hover:text-foreground">hello@humanlypersona.com</a></li>
-                <li>delhi India</li>
+                <li>Delhi, India</li>
             </ul>
         </div>
 
