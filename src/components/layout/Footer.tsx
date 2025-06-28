@@ -1,11 +1,20 @@
+"use client";
+
 import Link from 'next/link';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Logo } from '@/components/Logo';
 import { NAV_LINKS } from '@/lib/constants';
 import { Github, Twitter, Linkedin, MessageCircle } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export function Footer() {
+  const [year, setYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="border-t">
       <div className="container mx-auto px-4 md:px-6 py-12 grid gap-8 md:grid-cols-12">
@@ -50,7 +59,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><a href="mailto:hello@humanlypersona.com" className="hover:text-foreground">hello@humanlypersona.com</a></li>
-                <li><p>delhi India</p></li>
+                <li>delhi India</li>
             </ul>
         </div>
 
@@ -68,7 +77,7 @@ export function Footer() {
       </div>
       <div className="border-t">
         <div className="container mx-auto px-4 md:px-6 py-4 flex justify-between items-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Humanly Persona. All rights reserved.</p>
+          <p>&copy; {year} Humanly Persona. All rights reserved.</p>
           <div className="flex space-x-4">
              <Link href="#" className="hover:text-foreground">Privacy Policy</Link>
              <Link href="#" className="hover:text-foreground">Terms of Service</Link>
