@@ -8,12 +8,46 @@ export function Logo() {
       xmlns="http://www.w3.org/2000/svg"
       className="text-primary"
     >
-      <rect width="24" height="24" rx="6" fill="currentColor" />
-      <path d="M12 5C12.8284 5 13.5 5.67157 13.5 6.5C13.5 7.32843 12.8284 8 12 8C11.1716 8 10.5 7.32843 10.5 6.5C10.5 5.67157 11.1716 5 12 5Z" fill="white" />
-      <path d="M12 8V11" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-      <path d="M5.92822 17.5C7.31131 16.1423 9.88561 15 12 15C14.1144 15 16.6887 16.1423 18.0718 17.5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
-      <path d="M8.21484 14C8.83533 12.5539 10.2913 11.5 12 11.5C13.7087 11.5 15.1647 12.5539 15.7852 14" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
-      <path d="M3.19336 15C4.05389 12.8891 6.82918 10 12 10C17.1708 10 19.9461 12.8891 20.8066 15" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+      <path
+        d="M12 6.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z"
+        stroke="currentColor"
+        strokeWidth="1.2"
+      />
+      <path
+        d="M10.5 9.5C10.5 11 12 13 12 13C12 13 13.5 11 13.5 9.5"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M12 2C6 7 6 13 12 18C18 13 18 7 12 2Z"
+        stroke="currentColor"
+        strokeWidth="1.2"
+      />
+      <path
+        d="M3 15C5 12 8 11 11 12"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M21 15C19 12 16 11 13 12"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M5 20C7 18 9 17 11.5 17.5"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M19 20C17 18 15 17 12.5 17.5"
+        stroke="currentColor"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+      />
     </svg>
   );
 }
