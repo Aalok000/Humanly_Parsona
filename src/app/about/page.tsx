@@ -39,7 +39,6 @@ export default function AboutPage() {
               width={600}
               height={600}
               className="rounded-lg object-cover"
-              data-ai-hint="professional woman portrait"
             />
           </div>
         </div>

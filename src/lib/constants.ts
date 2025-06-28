@@ -104,42 +104,36 @@ export const testimonials = [
     title: 'Freelancer',
     quote: "Working with Humanly Persona was a game-changer. My online presence feels authentic and I've seen a 200% increase in client inquiries!",
     image: 'https://placehold.co/100x100.png',
-    dataAiHint: 'man portrait',
   },
   {
     name: 'Aalok',
     title: 'Techie',
     quote: "I struggled with how to present myself online. They provided a clear strategy that helped me land a speaking gig at a major conference.",
     image: 'https://placehold.co/100x100.png',
-    dataAiHint: 'man portrait',
   },
   {
     name: 'Shaikh',
     title: 'Content Creator',
     quote: "The content strategy sessions were invaluable. My engagement rates have soared, and I feel so much more confident in what I'm posting.",
     image: 'https://placehold.co/100x100.png',
-    dataAiHint: 'woman smiling',
   },
    {
     name: 'Anurag',
     title: 'Student & Aspiring Founder',
     quote: "As a student, getting this guidance was crucial. I've built a professional network on LinkedIn that I never thought possible.",
     image: 'https://placehold.co/100x100.png',
-    dataAiHint: 'man professional',
   },
   {
     name: 'Anurag',
     title: 'Marketing Manager',
     quote: "The profile makeover immediately made my LinkedIn stand out. Recruiters started reaching out to me instead of the other way around.",
     image: 'https://placehold.co/100x100.png',
-    dataAiHint: 'woman professional',
   },
   {
     name: 'priya',
     title: 'Real Estate Agent',
     quote: "They helped me translate my in-person sales skills into a compelling online brand. My lead generation has never been better.",
     image: 'https://placehold.co/100x100.png',
-    dataAiHint: 'man smiling',
   }
 ];
 
@@ -151,7 +145,6 @@ export const blogPosts = [
         author: "Jane Doe",
         date: "2024-05-15",
         image: "https://placehold.co/600x400.png",
-        dataAiHint: 'digital identity',
     },
     {
         slug: 'linkedin-mastery',
@@ -160,7 +153,6 @@ export const blogPosts = [
         author: "John Smith",
         date: "2024-05-10",
         image: "https://placehold.co/600x400.png",
-        dataAiHint: 'professional networking',
     },
     {
         slug: 'content-that-connects',
@@ -169,6 +161,5 @@ export const blogPosts = [
         author: "Emily White",
         date: "2024-05-01",
         image: "https://placehold.co/600x400.png",
-        dataAiHint: 'social media engagement',
     }
 ]

@@ -33,7 +33,6 @@ export default function BlogPage() {
                             width={600}
                             height={400}
                             className="object-cover w-full h-48 group-hover:scale-105 transition-transform duration-300"
-                            data-ai-hint={post.dataAiHint}
                         />
                     </CardHeader>
                     <CardContent className="p-6">

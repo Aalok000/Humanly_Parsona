@@ -19,7 +19,7 @@ export default function BlogPostPage() {
           <div className="flex items-center justify-center space-x-4 text-sm text-muted-foreground">
             <div className="flex items-center space-x-2">
               <Avatar className="h-8 w-8">
-                <AvatarImage src="https://placehold.co/100x100.png" alt={post.author} data-ai-hint="woman portrait" />
+                <AvatarImage src="https://placehold.co/100x100.png" alt={post.author} />
                 <AvatarFallback>{post.author.charAt(0)}</AvatarFallback>
               </Avatar>
               <span>{post.author}</span>
@@ -35,7 +35,6 @@ export default function BlogPostPage() {
           width={1200}
           height={675}
           className="rounded-lg mb-8 w-full object-cover aspect-video"
-          data-ai-hint={post.dataAiHint}
         />
 
         <div className="prose prose-lg max-w-none text-foreground prose-headings:text-foreground prose-a:text-primary hover:prose-a:text-primary/80 prose-strong:text-foreground">
