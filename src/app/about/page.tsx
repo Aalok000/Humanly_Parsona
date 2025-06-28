@@ -10,10 +10,10 @@ export default function AboutPage() {
       <section className="w-full py-20 md:py-32 lg:py-40 bg-secondary">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 font-headline">
-            About Virtually You
+            About Humanly Persona
           </h1>
           <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
-            We are passionate about empowering individuals to build authentic and impactful online brands.
+            Branding that feels like you.
           </p>
         </div>
       </section>
@@ -23,19 +23,19 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline mb-4">Our Founder's Story</h2>
             <p className="text-muted-foreground mb-4">
-              Jane Doe, founder of Virtually You, started her career feeling invisible in the crowded digital world. After years of trial and error, she cracked the code to building a powerful personal brand that opened doors to incredible opportunities.
+              Jane Doe, founder of Humanly Persona, started her career feeling invisible in the crowded digital world. After years of trial and error, she cracked the code to building a powerful personal brand that opened doors to incredible opportunities.
             </p>
             <p className="text-muted-foreground mb-4">
-              She realized that many talented individuals were struggling with the same problem. They had the skills and passion but lacked the knowledge to translate their value online. Virtually You was born from a desire to share this knowledge and provide a clear, supportive path for others to follow.
+              She realized that many talented individuals were struggling with the same problem. They had the skills and passion but lacked the knowledge to translate their value online. Humanly Persona was born from a desire to share this knowledge and provide a clear, supportive path for others to follow.
             </p>
             <p className="text-muted-foreground">
-              "I believe everyone deserves to be seen and heard for their unique talents. My goal is to give you the tools and confidence to build a virtual personality that truly represents you and achieves your goals," says Jane.
+              "I believe everyone deserves to be seen and heard for their unique talents. My goal is to give you the tools and confidence to build a brand that feels like you and achieves your goals," says Jane.
             </p>
           </div>
           <div>
             <Image
               src="https://placehold.co/600x600.png"
-              alt="Founder of Virtually You"
+              alt="Founder of Humanly Persona"
               width={600}
               height={600}
               className="rounded-lg object-cover"

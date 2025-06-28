@@ -17,10 +17,10 @@ export default function ServicesPage() {
       <section className="w-full py-20 md:py-32 lg:py-40 bg-secondary">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 font-headline">
-            Our Consultancy Packages
+            Our Services
           </h1>
           <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
-            Choose the perfect package to start building, growing, and refining your online brand.
+            Branding that feels like you.
           </p>
         </div>
       </section>

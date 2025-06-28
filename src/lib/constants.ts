@@ -102,7 +102,7 @@ export const testimonials = [
   {
     name: 'Sarah L.',
     title: 'Freelance Designer',
-    quote: "Working with Virtually You was a game-changer. My online presence feels authentic and I've seen a 200% increase in client inquiries!",
+    quote: "Working with Humanly Persona was a game-changer. My online presence feels authentic and I've seen a 200% increase in client inquiries!",
     image: 'https://placehold.co/100x100.png',
     dataAiHint: 'woman portrait',
   },

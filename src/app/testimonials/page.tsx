@@ -52,7 +52,7 @@ export default function TestimonialsPage() {
 
       <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
         <div className="container mx-auto px-4 md:px-6 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">Could You Be Our Next Success Story?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">Ready to Build Your Brand?</h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl my-4">
                 Your transformation is just one conversation away. Let's explore how we can help you achieve your goals.
             </p>

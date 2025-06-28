@@ -12,10 +12,10 @@ export function Footer() {
         <div className="md:col-span-3">
           <Link href="/" className="flex items-center space-x-2 mb-4">
             <Logo />
-            <span className="font-bold text-lg">Virtually You</span>
+            <span className="font-bold text-lg">Humanly Persona</span>
           </Link>
           <p className="text-muted-foreground text-sm">
-            Crafting compelling online presences for tomorrow's leaders.
+            Branding that feels like you.
           </p>
           <div className="flex space-x-4 mt-4">
             <Link href="#" aria-label="Twitter">
@@ -49,7 +49,7 @@ export function Footer() {
         <div className="md:col-span-3">
             <h3 className="font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="mailto:hello@virtuallyyou.com" className="hover:text-foreground">hello@virtuallyyou.com</a></li>
+                <li><a href="mailto:hello@humanlypersona.com" className="hover:text-foreground">hello@humanlypersona.com</a></li>
                 <li><p>New York, NY</p></li>
             </ul>
         </div>
@@ -68,7 +68,7 @@ export function Footer() {
       </div>
       <div className="border-t">
         <div className="container mx-auto px-4 md:px-6 py-4 flex justify-between items-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Virtually You. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Humanly Persona. All rights reserved.</p>
           <div className="flex space-x-4">
              <Link href="#" className="hover:text-foreground">Privacy Policy</Link>
              <Link href="#" className="hover:text-foreground">Terms of Service</Link>

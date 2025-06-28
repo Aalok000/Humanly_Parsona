@@ -20,7 +20,7 @@ export function Header() {
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Logo />
             <span className="hidden font-bold sm:inline-block">
-              Virtually You
+              Humanly Persona
             </span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -50,7 +50,7 @@ export function Header() {
           <SheetContent side="left" className="pr-0">
             <Link href="/" className="flex items-center">
               <Logo />
-              <span className="font-bold ml-2">Virtually You</span>
+              <span className="font-bold ml-2">Humanly Persona</span>
             </Link>
             <div className="my-4 h-px w-full bg-border" />
             <div className="flex flex-col space-y-4">

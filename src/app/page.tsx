@@ -21,10 +21,10 @@ export default function Home() {
         <section className="w-full py-20 md:py-32 lg:py-40 bg-secondary">
           <div className="container mx-auto px-4 md:px-6 text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 font-headline">
-              Amplify Your Digital Self
+              Branding That Feels Like You
             </h1>
             <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl mb-8">
-              Virtually You helps you craft a compelling online presence. We offer expert 1-on-1 consultancy to build your personal brand and make your virtual personality shine.
+              Humanly Persona helps you craft a compelling online presence. We offer expert 1-on-1 consultancy to build your personal brand and make your virtual personality shine.
             </p>
             <Button asChild size="lg">
               <Link href="/contact">Book a Free Consultation</Link>
@@ -143,7 +143,7 @@ export default function Home() {
         {/* CTA Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
           <div className="container mx-auto px-4 md:px-6 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">Ready to Spark Your Brand?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">Ready to Build Your Brand?</h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl my-4">
               Your journey to a powerful personal brand starts with a single step. Let's explore your potential together.
             </p>

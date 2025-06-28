@@ -6,9 +6,9 @@ import { Toaster } from "@/components/ui/toaster";
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Virtually You: Brand Spark',
+  title: 'Humanly Persona',
   description:
-    'We help individuals grow their personal brand online and build a strong virtual personality.',
+    'Branding that feels like you.',
 };
 
 export default function RootLayout({

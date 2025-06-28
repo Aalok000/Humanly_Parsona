@@ -32,8 +32,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <a href="mailto:hello@virtuallyyou.com" className="text-muted-foreground hover:text-primary">
-                      hello@virtuallyyou.com
+                    <a href="mailto:hello@humanlypersona.com" className="text-muted-foreground hover:text-primary">
+                      hello@humanlypersona.com
                     </a>
                   </div>
                 </div>

@@ -9,7 +9,7 @@ export default function HowItWorksPage() {
       <section className="w-full py-20 md:py-32 lg:py-40 bg-secondary">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 font-headline">
-            Our Simple Path to Your Success
+            Our Simple Path to Your Authentic Brand
           </h1>
           <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
             We follow a straightforward, collaborative process to ensure we understand your vision and deliver results.
@@ -44,7 +44,7 @@ export default function HowItWorksPage() {
 
       <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
         <div className="container mx-auto px-4 md:px-6 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">Ready to Take the First Step?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">Ready to Build Your Brand?</h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl my-4">
               Your journey towards a powerful online brand begins with a simple, free conversation.
             </p>
