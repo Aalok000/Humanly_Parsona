@@ -25,14 +25,19 @@ const formSchema = z.object({
   email: z.string().email({
     message: "Please enter a valid email address.",
   }),
-  website: z.string().url({
-    message: "Please enter a valid URL."
-  }).optional().or(z.literal('')),
-  message: z.string().min(10, {
-    message: "Message must be at least 10 characters."
-  }).max(500, {
-    message: "Message must not be longer than 500 characters."
-  })
+  website: z
+    .string()
+    .url({ message: "Please enter a valid URL." })
+    .optional()
+    .or(z.literal("")),
+  message: z
+    .string()
+    .min(10, {
+      message: "Message must be at least 10 characters.",
+    })
+    .max(500, {
+      message: "Message must not be longer than 500 characters.",
+    }),
 });
 
 export function ContactForm() {
@@ -40,6 +45,7 @@ export function ContactForm() {
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
+    mode: "onChange", // important to track real-time validity
     defaultValues: {
       name: "",
       email: "",
@@ -48,13 +54,34 @@ export function ContactForm() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: "Form Submitted!",
-      description: "Thanks for reaching out. We'll be in touch soon.",
-    });
-    form.reset();
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      await fetch(
+        "https://script.google.com/macros/s/AKfycbwOKEgNGT0bxFb5nlChFsqtFcJ0ACEnRy7atlM5o8cvxAgRNP-ofRS4BDiL900msNUjFA/exec",
+        {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(values),
+        }
+      );
+
+      toast({
+        title: "Form Submitted!",
+        description: "Thanks for reaching out. We'll be in touch soon.",
+      });
+
+      form.reset();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast({
+        title: "Something went wrong",
+        description: "Please try again later.",
+        variant: "destructive",
+      });
+    }
   }
 
   return (
@@ -67,7 +94,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Full Name</FormLabel>
               <FormControl>
-                <Input placeholder="Aalok Tomer" {...field} />
+                <Input placeholder="Full Name" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -96,7 +123,8 @@ export function ContactForm() {
                 <Input placeholder="https://your-link.com" {...field} />
               </FormControl>
               <FormDescription>
-                Link to your primary online profile (e.g., LinkedIn, personal site).
+                Link to your primary online profile (e.g., LinkedIn, personal
+                site).
               </FormDescription>
               <FormMessage />
             </FormItem>
@@ -115,14 +143,20 @@ export function ContactForm() {
                   {...field}
                 />
               </FormControl>
-               <FormDescription>
+              <FormDescription>
                 Briefly describe your goals for your personal brand.
               </FormDescription>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit">Send Message</Button>
+
+        <Button
+          type="submit"
+          disabled={!form.formState.isValid || form.formState.isSubmitting}
+        >
+          {form.formState.isSubmitting ? "Submitting..." : "Send Message"}
+        </Button>
       </form>
     </Form>
   );
